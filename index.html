@@ -66,14 +66,15 @@ body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);
     align-items:center;
     justify-content:center;
     text-align:center;
-    color:white;
+    color:#7996fd;
     position:relative;
     padding:20px;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
                 url('VD-cover-img.jpeg') center/cover no-repeat;
+  	background-position: -300px 0;
 }
 
-.hero h1{ font-family:'Pinyon Script'; font-size: 2.5rem; margin: 10px 0; color: var(--turmeric); }
+.hero h1{ font-family:'Pinyon Script'; font-size: 2.5rem; margin: 10px 0; color: #EC7CB5 ; }
 .hero-sub{ letter-spacing:4px; font-size:0.8rem; text-transform: uppercase; }
 
 .section{ padding: 80px 20px; text-align:center; position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; }
@@ -132,6 +133,9 @@ body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);
   	margin: -45px 0 -66px 0;
 }
 @media(min-width:768px){
+	.hero {
+  		background-position: 0 0;
+	}
     .hero h1 { font-size: 6rem; }
     .section { padding: 100px 40px; }
     .family-grid { flex-direction: row; justify-content: space-around; }
@@ -536,6 +540,7 @@ function closeModal(){ document.getElementById("modal").style.display="none"; }
 </body>
 
 </html>
+
 
 
 

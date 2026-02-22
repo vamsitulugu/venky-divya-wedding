@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://vamsitulugu.github.io/venky-divya-wedding/">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<title>Venky & Divya | Royal Wedding 2026</title>
+<title> VenkyMetHisDivya </title>
 
 <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -73,7 +73,7 @@ body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);
                 url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1000') center/cover no-repeat;
 }
 
-.hero h1{ font-family:'Pinyon Script'; font-size: 3.5rem; margin: 10px 0; color: var(--turmeric); }
+.hero h1{ font-family:'Pinyon Script'; font-size: 2.5rem; margin: 10px 0; color: var(--turmeric); }
 .hero-sub{ letter-spacing:4px; font-size:0.8rem; text-transform: uppercase; }
 
 .section{ padding: 80px 20px; text-align:center; position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; }
@@ -135,6 +135,185 @@ body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);
     .card { flex: 1; }
     .couple-main-img { max-width: 350px; }
 }
+.header-logo{
+    height: 200px;
+}
+    .timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 1px;
+  background-color: #d4d4d4;
+  left: 50%;
+  margin-left: 0px;
+}
+@media screen and (max-width: 480px) {
+  .timeline:before {
+    margin-left: -64px;
+  }
+}
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.timeline > li:before, .timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li > .timeline-panel {
+  width: 40%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  padding: 30px;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 80px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 81px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+@media screen and (max-width: 480px) {
+  .timeline > li > .timeline-panel {
+    width: 75% !important;
+  }
+  .timeline > li > .timeline-panel:before {
+    top: 30px;
+  }
+  .timeline > li > .timeline-panel:after {
+    top: 31px;
+  }
+}
+.timeline > li > .timeline-badge {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #fff;
+  width: 160px;
+  height: 160px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -80px;
+  background-color: #999999;
+  z-index: 100;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+@media screen and (max-width: 480px) {
+  .timeline > li > .timeline-badge {
+    width: 60px;
+    height: 60px;
+    margin-left: -20px !important;
+  }
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+.timeline-title {
+  margin-top: 0;
+}
+
+.date {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+@media (max-width: 992px) {
+  ul.timeline:before {
+    left: 90px;
+  }
+
+  ul.timeline > li > .timeline-panel {
+    width: calc(100% - 200px);
+    width: -moz-calc(100% - 200px);
+    width: -webkit-calc(100% - 200px);
+  }
+
+  ul.timeline > li > .timeline-badge {
+    left: 15px;
+    margin-left: 0;
+    top: 16px;
+  }
+
+  ul.timeline > li > .timeline-panel {
+    float: right;
+  }
+
+  ul.timeline > li > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+
+  ul.timeline > li > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+}
 </style>
 </head>
 
@@ -148,7 +327,7 @@ body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);
         <div class="reveal-up">Save the date</div>
         <br>
         <div class="hero-sub reveal-up">The Wedding Celebration of</div>
-        <img src="VenkyMetHisDivya-White-Logo.png" />
+        <img class="header-logo" src="VenkyMetHisDivya-White-Logo.png" />
         <h1 id="couple-names" class="reveal-up">Venky & Divya</h1>
         <div class="reveal-up" style="font-size: 1.2rem; letter-spacing: 2px; font-weight: 600;">07 • MARCH • 2026</div>
     </div>
@@ -162,7 +341,50 @@ body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);
     <div class="divider"></div>
     <p class="reveal-up" style="font-style: italic; line-height: 1.8; color: #555; font-size: 1.1rem;">"In the garden of life, our love is the most beautiful bloom. Join us as we start our forever."</p>
 </section>
-
+<section class="section">
+    <div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline animate-box fadeInUp animated-fast">
+						<li class="animate-box fadeInUp animated-fast">
+							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">First We Meet</h3>
+									<span class="date">December 25, 2015</span>
+								</div>
+								<div class="timeline-body">
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box fadeInUp animated-fast">
+							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">First Date</h3>
+									<span class="date">December 28, 2015</span>
+								</div>
+								<div class="timeline-body">
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box fadeInUp animated-fast">
+							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">In A Relationship</h3>
+									<span class="date">January 1, 2016</span>
+								</div>
+								<div class="timeline-body">
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+</section>
 <section class="section" style="background: var(--turmeric); background-image: url('https://www.transparenttextures.com/patterns/mandala.png');">
     <h2 class="reveal-up" style="color: var(--maroon);">With Eternal Blessings</h2>
     <div class="divider" style="background: var(--maroon);"></div>
@@ -309,6 +531,7 @@ function closeModal(){ document.getElementById("modal").style.display="none"; }
 </body>
 
 </html>
+
 
 
 

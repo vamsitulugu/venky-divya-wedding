@@ -110,7 +110,7 @@ body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);
 }
 @media(min-width:768px){
 	.hero {
-  		background-position: 0 0;
+        background-position: center;
 	}
     .hero h1 { font-size: 6rem; }
     .section { padding: 100px 40px; }

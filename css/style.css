@@ -47,7 +47,7 @@ body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--text);
     padding:20px;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
                 url('../Images/VD-cover-img.jpeg') center/cover no-repeat;
-  	background-position: -345px 0; 
+  	background-position: -261px 0; 
 }
 
 .hero h1{ font-family:'Pinyon Script'; font-size: 2.5rem; margin: 10px 0; color: #EC7CB5 ; }
